@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
     link: "https://github.com/naitikbajpaii"
   },
@@ -44,8 +44,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -55,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -75,8 +75,8 @@ export const projects = [
     id: 1,
     title: "Cinematic Renders",
     des: "Works of my film creation journey, collabs with some talented peeps..",  
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "./p1.svg",
+    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
     link: "./works/videos.html",
     kword: "Watch"
   },
@@ -84,8 +84,8 @@ export const projects = [
     id: 2,
     title: "All of Graphic Design",
     des: "UI Design, Brand Identity, Logos and everything of my design ideas..",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "./p2.svg",
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./stream.svg", "./c.svg"],
     link: "https://dribbble.com/naitik_63",
     kword: "Experience"
   },
@@ -93,8 +93,8 @@ export const projects = [
     id: 3,
     title: "Literary Writings",
     des: "Inspired by personal experiences, brewed with 3am thoughts, here are my writings...",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: "./p3.svg",
+    iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
     link: "https://naitikswrites.blogspot.com/",
     kword: "Read"
   },
@@ -102,8 +102,8 @@ export const projects = [
     id: 4,
     title: "Shutter n Ideas",
     des: "Gotta love these unique and thoughtful frames blended with moody colors..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    img: "./p4.svg",
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
     link: "https://www.pinterest.com/naitikbajpai257",
     kword: "Indulge"
   },
@@ -146,32 +146,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -181,45 +181,45 @@ export const workExperience = [
     title: "Dark Short Film",
     desc: "Produced and edited a short film for El One Productions",
     className: "md:col-span-2",
-    thumbnail: "/exp1.png",
+    thumbnail: "./exp1.png",
   },
   {
     id: 2,
     title: "Nisarga Logo",
     desc: "Designed a Logo for the Sustainability club of my College",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Product Designing",
     desc: "Led the T-Shirt design team for various clubs of the college",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   {
     id: 4,
     title: "Primary Designer",
     desc: "Lead Designer for the Literary affairs council",
     className: "md:col-span-2",
-    thumbnail: "/exp4.png",
+    thumbnail: "./exp4.png",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/insta.svg",
+    img: "./insta.svg",
     link: "https://instagram.com/naitikbajpaii"
   },
   {
     id: 2,
-    img: "/yt.svg",
+    img: "./yt.svg",
     link: "https://youtube.com/@naitikbajpaii"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://linkedin.com/in/naitikb"
   },
 ];

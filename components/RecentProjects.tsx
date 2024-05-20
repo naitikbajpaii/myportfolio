@@ -27,7 +27,7 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="./bg.png" alt="bgimg" />
                 </div>
                 <img
                   src={item.img}
@@ -68,7 +68,7 @@ const RecentProjects = () => {
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     <a href={item.link} target="_blank">Check out now</a>
-                    
+
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
