@@ -3,4 +3,4 @@ const nextConfig = {
     output: 'export',
 };
 
-export default config;
+export default api;
